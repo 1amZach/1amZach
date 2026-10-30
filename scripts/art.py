@@ -152,9 +152,9 @@ card = f'''<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="250" vie
 <rect class="border" x="1" y="1" width="998" height="248" rx="16" fill="none" stroke="#FFAA1E" stroke-width="2.5" filter="url(#glow)"/>
 <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
   <text x="40" y="66" font-size="38" font-weight="800" fill="#ffffff">devkit</text>
-  <rect x="196" y="40" width="112" height="28" rx="14" fill="#FFAA1E" fill-opacity=".15" stroke="#FFAA1E" stroke-opacity=".6"/>
+  <rect x="196" y="40" width="138" height="28" rx="14" fill="#FFAA1E" fill-opacity=".15" stroke="#FFAA1E" stroke-opacity=".6"/>
   <circle class="dot" cx="214" cy="54" r="5" fill="#FFAA1E"/>
-  <text x="226" y="59" font-size="13" font-weight="700" fill="#FFAA1E" letter-spacing="1.5">IN TESTING</text>
+  <text x="226" y="59" font-size="13" font-weight="700" fill="#FFAA1E" textLength="94" lengthAdjust="spacingAndGlyphs">IN TESTING</text>
   <text x="40" y="104" font-size="17" fill="#c9d1d9">In-game tools for building FiveM servers.</text>
   <text x="40" y="126" font-size="17" fill="#8b949e">Point, click, paste. No more guessing coords.</text>
   <g font-size="12" font-weight="600" fill="#FFD59A">{"".join(chip_svg)}</g>
