@@ -1,7 +1,7 @@
 <img src="assets/header.svg" width="100%" alt="IamZach" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=FFAA1E&center=true&vCenter=true&width=600&lines=building+FiveM+resources+in+Lua;tools+for+people+who+build+servers;open+source%2C+framework-agnostic;currently+shipping%3A+devkit" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=FFAA1E&center=true&vCenter=true&width=600&lines=building+FiveM+resources+in+Lua;Svelte+%2B+TypeScript+NUIs;Node%2C+REST+%26+WebSockets;open+source%2C+framework-agnostic;currently+shipping%3A+devkit" alt="typing" />
 </p>
 
 <p align="center">
@@ -15,8 +15,10 @@
 ```lua
 local IamZach = {
     role       = "FiveM developer",
-    languages  = { "Lua", "SQL" },
-    stack      = { "ox_lib", "oxmysql" },
+    languages  = { "Lua", "TypeScript", "JavaScript", "SQL" },
+    frontend   = { "Svelte", "HTML", "CSS", "Vite" },
+    backend    = { "Node", "MariaDB", "REST APIs", "WebSockets" },
+    fivem      = { "ox_lib", "oxmysql", "NUI" },
     frameworks = { "ESX", "QBCore", "Qbox", "standalone" },
     building   = "devkit",
     principles = { "free", "readable", "framework-agnostic" },
@@ -28,13 +30,18 @@ return IamZach
 ### Featured
 
 <a href="https://github.com/1amZach/devkit">
-  <img src="assets/devkit.svg" width="100%" alt="devkit" />
+  <img src="assets/devkit-card.svg" width="100%" alt="devkit" />
 </a>
 
 ### Toolbox
 
 <p>
-  <img src="https://skillicons.dev/icons?i=lua,mysql,linux,bash,git,github&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=lua,ts,js,svelte,html,css,nodejs,vite,git,github&theme=dark" />
+</p>
+<p>
+  <img src="https://img.shields.io/badge/MariaDB-003545?style=for-the-badge&logo=mariadb&logoColor=white" />
+  <img src="https://img.shields.io/badge/REST_APIs-0d1117?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/WebSockets-0d1117?style=for-the-badge&logo=socketdotio&logoColor=FFAA1E" />
 </p>
 
 ### Stats

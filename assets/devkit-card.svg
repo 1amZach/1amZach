@@ -17,7 +17,7 @@
   <text x="40" y="66" font-size="38" font-weight="800" fill="#ffffff">devkit</text>
   <rect x="196" y="40" width="138" height="28" rx="14" fill="#FFAA1E" fill-opacity=".15" stroke="#FFAA1E" stroke-opacity=".6"/>
   <circle class="dot" cx="214" cy="54" r="5" fill="#FFAA1E"/>
-  <text x="226" y="59" font-size="13" font-weight="700" fill="#FFAA1E" textLength="94" lengthAdjust="spacingAndGlyphs">IN TESTING</text>
+  <text x="273" y="59" text-anchor="middle" font-size="12" font-weight="700" fill="#FFAA1E" textLength="90" lengthAdjust="spacingAndGlyphs">IN TESTING</text>
   <text x="40" y="104" font-size="17" fill="#c9d1d9">In-game tools for building FiveM servers.</text>
   <text x="40" y="126" font-size="17" fill="#8b949e">Point, click, paste. No more guessing coords.</text>
   <g font-size="12" font-weight="600" fill="#FFD59A"><rect x="40" y="138" width="128" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="104" y="158" text-anchor="middle">Coords overlay</text><rect x="176" y="138" width="142" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="247" y="158" text-anchor="middle">Entity inspector</text><rect x="326" y="138" width="105" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="379" y="158" text-anchor="middle">Prop placer</text><rect x="439" y="138" width="113" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="496" y="158" text-anchor="middle">Zone builder</text></g>
