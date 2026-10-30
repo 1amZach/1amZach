@@ -8,23 +8,27 @@
 @keyframes pulse { 0%,100% { opacity:1 } 50% { opacity:.25 } }
 </style>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#11141b"/><stop offset="1" stop-color="#1a0f22"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0f1120"/><stop offset="1" stop-color="#1a0f2e"/></linearGradient>
+  <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#2BD9CC"/><stop offset=".5" stop-color="#9C2CF1"/><stop offset="1" stop-color="#C241F3"/></linearGradient>
+  <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="3" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
 </defs>
 <rect x="1" y="1" width="998" height="248" rx="16" fill="url(#bg)" stroke="#30363d"/>
-<rect class="border" x="1" y="1" width="998" height="248" rx="16" fill="none" stroke="#FFAA1E" stroke-width="2.5" filter="url(#glow)"/>
+<rect class="border" x="1" y="1" width="998" height="248" rx="16" fill="none" stroke="url(#edge)" stroke-width="2.5" filter="url(#glow)"/>
 <g font-family="'Segoe UI','Helvetica Neue',Arial,sans-serif">
   <text x="40" y="66" font-size="38" font-weight="800" fill="#ffffff">devkit</text>
-  <rect x="196" y="40" width="138" height="28" rx="14" fill="#FFAA1E" fill-opacity=".15" stroke="#FFAA1E" stroke-opacity=".6"/>
-  <circle class="dot" cx="214" cy="54" r="5" fill="#FFAA1E"/>
-  <text x="273" y="59" text-anchor="middle" font-size="12" font-weight="700" fill="#FFAA1E" textLength="90" lengthAdjust="spacingAndGlyphs">IN TESTING</text>
+  <rect x="196" y="40" width="138" height="28" rx="14" fill="#9C2CF1" fill-opacity=".15" stroke="#9C2CF1" stroke-opacity=".7"/>
+  <circle class="dot" cx="214" cy="54" r="5" fill="#2BD9CC"/>
+  <text x="273" y="59" text-anchor="middle" font-size="12" font-weight="700" fill="#E2DEE9" textLength="90" lengthAdjust="spacingAndGlyphs">IN TESTING</text>
   <text x="40" y="104" font-size="17" fill="#c9d1d9">In-game tools for building FiveM servers.</text>
   <text x="40" y="126" font-size="17" fill="#8b949e">Point, click, paste. No more guessing coords.</text>
-  <g font-size="12" font-weight="600" fill="#FFD59A"><rect x="40" y="138" width="128" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="104" y="158" text-anchor="middle">Coords overlay</text><rect x="176" y="138" width="142" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="247" y="158" text-anchor="middle">Entity inspector</text><rect x="326" y="138" width="105" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="379" y="158" text-anchor="middle">Prop placer</text><rect x="439" y="138" width="113" height="30" rx="15" fill="#FFAA1E" fill-opacity=".1" stroke="#FFAA1E" stroke-opacity=".45"/><text x="496" y="158" text-anchor="middle">Zone builder</text></g>
-  <text x="40" y="212" font-size="14" fill="#8b949e"><tspan fill="#2C7BE5">&#9679;</tspan> Lua   <tspan dx="14" fill="#FFAA1E">&#9679;</tspan> ox_lib   <tspan dx="14" fill="#3fb950">&#9679;</tspan> ESX · QBCore · Qbox · standalone</text>
+  <g font-size="12" font-weight="600" fill="#E2DEE9"><rect x="40" y="138" width="128" height="30" rx="15" fill="#9C2CF1" fill-opacity=".1" stroke="#9C2CF1" stroke-opacity=".5"/><text x="104" y="158" text-anchor="middle">Coords overlay</text><rect x="176" y="138" width="142" height="30" rx="15" fill="#9C2CF1" fill-opacity=".1" stroke="#9C2CF1" stroke-opacity=".5"/><text x="247" y="158" text-anchor="middle">Entity inspector</text><rect x="326" y="138" width="105" height="30" rx="15" fill="#9C2CF1" fill-opacity=".1" stroke="#9C2CF1" stroke-opacity=".5"/><text x="379" y="158" text-anchor="middle">Prop placer</text><rect x="439" y="138" width="113" height="30" rx="15" fill="#9C2CF1" fill-opacity=".1" stroke="#9C2CF1" stroke-opacity=".5"/><text x="496" y="158" text-anchor="middle">Zone builder</text></g>
+  <text x="40" y="212" font-size="14" fill="#8b949e"><tspan fill="#2C7BE5">&#9679;</tspan> Lua   <tspan dx="14" fill="#9C2CF1">&#9679;</tspan> ox_lib   <tspan dx="14" fill="#2BD9CC">&#9679;</tspan> ESX · QBCore · Qbox · standalone</text>
 </g>
-<rect x="615" y="34" width="350" height="182" rx="10" fill="#0a0c10" stroke="#30363d"/>
+<rect x="615" y="34" width="350" height="182" rx="10" fill="#0a0b14" stroke="#30363d"/>
 <circle cx="636" cy="52" r="5" fill="#ff5f57"/><circle cx="654" cy="52" r="5" fill="#febc2e"/><circle cx="672" cy="52" r="5" fill="#28c840"/>
 <text x="950" y="56" text-anchor="end" font-family="Consolas,monospace" font-size="11" fill="#6e7681">copied to clipboard</text>
-<g font-family="'JetBrains Mono',Consolas,'Courier New',monospace" font-size="13"><text x="640" y="82" fill="#ff7b72" style="animation-delay:0.00s" class="ln">lib.zones.poly<tspan fill="#e6edf3">({</tspan></text><text x="640" y="99" fill="#e6edf3" style="animation-delay:0.25s" class="ln">&#160;&#160;points&#160;=&#160;{</text><text x="640" y="116" fill="#79c0ff" style="animation-delay:0.50s" class="ln">&#160;&#160;&#160;&#160;vec3<tspan fill="#a5d6ff">(215.12, -810.44, 30.73),</tspan></text><text x="640" y="133" fill="#79c0ff" style="animation-delay:0.75s" class="ln">&#160;&#160;&#160;&#160;vec3<tspan fill="#a5d6ff">(228.90, -815.02, 30.73),</tspan></text><text x="640" y="150" fill="#79c0ff" style="animation-delay:1.00s" class="ln">&#160;&#160;&#160;&#160;vec3<tspan fill="#a5d6ff">(224.31, -828.67, 30.73),</tspan></text><text x="640" y="167" fill="#e6edf3" style="animation-delay:1.25s" class="ln">&#160;&#160;},</text><text x="640" y="184" fill="#e6edf3" style="animation-delay:1.50s" class="ln">&#160;&#160;thickness&#160;=&#160;<tspan fill="#a5d6ff">4.00,</tspan></text><text x="640" y="201" fill="#e6edf3" style="animation-delay:1.75s" class="ln">})</text></g>
+<g font-family="'JetBrains Mono','Fira Code',Consolas,'Courier New',monospace" font-size="13"><text x="640" y="82" fill="#ff7b72" class="ln" style="animation-delay:0.00s">lib.zones.poly<tspan fill="#e6edf3">({</tspan></text><text x="640" y="99" fill="#e6edf3" class="ln" style="animation-delay:0.25s">&#160;&#160;points&#160;=&#160;{</text><text x="640" y="116" fill="#79c0ff" class="ln" style="animation-delay:0.50s">&#160;&#160;&#160;&#160;vec3<tspan fill="#a5d6ff">(215.12, -810.44, 30.73),</tspan></text><text x="640" y="133" fill="#79c0ff" class="ln" style="animation-delay:0.75s">&#160;&#160;&#160;&#160;vec3<tspan fill="#a5d6ff">(228.90, -815.02, 30.73),</tspan></text><text x="640" y="150" fill="#79c0ff" class="ln" style="animation-delay:1.00s">&#160;&#160;&#160;&#160;vec3<tspan fill="#a5d6ff">(224.31, -828.67, 30.73),</tspan></text><text x="640" y="167" fill="#e6edf3" class="ln" style="animation-delay:1.25s">&#160;&#160;},</text><text x="640" y="184" fill="#e6edf3" class="ln" style="animation-delay:1.50s">&#160;&#160;thickness&#160;=&#160;<tspan fill="#a5d6ff">4.00,</tspan></text><text x="640" y="201" fill="#e6edf3" class="ln" style="animation-delay:1.75s">})</text></g>
 </svg>

@@ -99,7 +99,7 @@ def render(user):
 <style>
 .num {{ font: 800 26px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill:#fff; }}
 .lbl {{ font: 600 10px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill:#8b949e; letter-spacing:1.4px; }}
-.ttl {{ font: 700 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill:#FFAA1E; }}
+.ttl {{ font: 700 15px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill:#9C2CF1; }}
 .sub {{ font: 500 11px 'Segoe UI','Helvetica Neue',Arial,sans-serif; fill:#6e7681; }}
 .in {{ opacity:0; animation: in .5s ease-out forwards; }}
 @keyframes in {{ from {{ opacity:0; transform:translateY(6px) }} to {{ opacity:1; transform:none }} }}
@@ -108,7 +108,7 @@ def render(user):
 </style>
 <defs>
   <linearGradient id="fill" x1="0" y1="0" x2="0" y2="1">
-    <stop offset="0" stop-color="#FFAA1E" stop-opacity=".35"/><stop offset="1" stop-color="#FFAA1E" stop-opacity="0"/>
+    <stop offset="0" stop-color="#6913E7" stop-opacity=".45"/><stop offset="1" stop-color="#216EEF" stop-opacity="0"/>
   </linearGradient>
 </defs>
 <rect width="495" height="195" rx="8" fill="#0d1117"/>
@@ -116,7 +116,7 @@ def render(user):
 <text x="470" y="35" class="sub" text-anchor="end">@{LOGIN}</text>
 {"".join(cells)}
 <path d="{area}" fill="url(#fill)"/>
-<polyline class="spark" points="{line}" fill="none" stroke="#FFAA1E" stroke-width="2" stroke-linejoin="round"/>
+<polyline class="spark" points="{line}" fill="none" stroke="#9C2CF1" stroke-width="2" stroke-linejoin="round"/>
 </svg>
 '''
 
