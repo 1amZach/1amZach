@@ -61,7 +61,7 @@ return IamZach
   <img src="https://streak-stats.demolab.com?user=1amZach&hide_border=true&border_radius=8&background=0d1117&ring=9C2CF1&fire=2BD9CC&currStreakLabel=2BD9CC&sideLabels=8b949e&currStreakNum=ffffff&sideNums=ffffff&dates=6e7681&stroke=30363d" width="49%" alt="streak" />
 </p>
 
-<img src="profile-3d-contrib/profile-3d.svg" width="100%" alt="3D contributions" />
+<img src="profile-3d-contrib/astra-3d.svg" width="100%" alt="3D contributions" />
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/1amZach/1amZach/output/github-snake-dark.svg" />
