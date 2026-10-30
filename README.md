@@ -68,5 +68,3 @@ return IamZach
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/1amZach/1amZach/output/github-snake.svg" />
   <img alt="contribution snake" src="https://raw.githubusercontent.com/1amZach/1amZach/output/github-snake-dark.svg" width="100%" />
 </picture>
-
-<p align="center"><sub>stats, 3D graph and snake rebuild themselves every few hours via GitHub Actions</sub></p>
