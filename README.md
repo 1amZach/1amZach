@@ -1,10 +1,15 @@
 <img src="assets/header.svg" width="100%" alt="IamZach" />
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=FFAA1E&center=true&vCenter=true&width=600&lines=building+FiveM+resources+in+Lua;Svelte+%2B+TypeScript+NUIs;Node%2C+REST+%26+WebSockets;open+source%2C+framework-agnostic;currently+shipping%3A+devkit" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=20&duration=2800&pause=900&color=FFAA1E&center=true&vCenter=true&width=600&lines=building+FiveM+resources+in+Lua;Svelte+%2B+TypeScript+NUIs;Node%2C+REST+%26+WebSockets;open+source%2C+framework-agnostic;founder+of+Astra+Gaming+Network;currently+shipping%3A+devkit" alt="typing" />
 </p>
 
 <p align="center">
+  <b>Founder of <a href="https://discord.gg/agn">Astra Gaming Network</a></b>, a voice-first gaming community
+</p>
+
+<p align="center">
+  <a href="https://discord.gg/agn"><img src="https://img.shields.io/badge/Join_AGN-5865F2?style=flat-square&logo=discord&logoColor=white" /></a>
   <img src="https://komarev.com/ghpvc/?username=1amZach&label=profile%20views&color=FFAA1E&style=flat-square" />
   <img src="https://img.shields.io/github/followers/1amZach?label=followers&style=flat-square&color=FFAA1E&labelColor=0d1117" />
   <img src="https://img.shields.io/badge/status-shipping-FFAA1E?style=flat-square&labelColor=0d1117" />
@@ -15,6 +20,7 @@
 ```lua
 local IamZach = {
     role       = "FiveM developer",
+    founder    = "Astra Gaming Network",  -- discord.gg/agn
     languages  = { "Lua", "TypeScript", "JavaScript", "SQL" },
     frontend   = { "Svelte", "HTML", "CSS", "Vite" },
     backend    = { "Node", "MariaDB", "REST APIs", "WebSockets" },
