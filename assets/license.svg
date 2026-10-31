@@ -83,11 +83,11 @@
 <rect x="640" y="218" width="340" height="182" rx="6" fill="url(#panelfill)" stroke="#2C2455"/><path d="M640,232 V218 H654 M966,218 H980 V232 M980,386 V400 H966 M654,400 H640 V386" fill="none" stroke="#2BD9CC" stroke-width="2"/><text x="660" y="248" class="m" font-size="12" fill="#2BD9CC" letter-spacing="3">PLAYER LEVEL</text>
 <text class="r" x="660" y="296" font-size="54" fill="#fff">26</text>
 <text class="r5" x="722" y="296" font-size="15" fill="#8F86B8" letter-spacing="3">LVL</text>
-<text class="r" x="960" y="270" font-size="20" fill="#2BD9CC" text-anchor="end">689 XP</text>
-<text class="r5" x="960" y="292" font-size="12" fill="#8F86B8" text-anchor="end" letter-spacing="1.5">40 TO LVL 27</text>
+<text class="r" x="960" y="270" font-size="20" fill="#2BD9CC" text-anchor="end">719 XP</text>
+<text class="r5" x="960" y="292" font-size="12" fill="#8F86B8" text-anchor="end" letter-spacing="1.5">10 TO LVL 27</text>
 <rect x="660" y="310" width="300" height="8" rx="4" fill="#fff" fill-opacity=".08"/>
-<rect class="xp" x="660" y="310" width="74" height="8" rx="4" fill="url(#brand)"/>
+<rect class="xp" x="660" y="310" width="243" height="8" rx="4" fill="url(#brand)"/>
 <text class="r5" x="660" y="338" font-size="11" fill="#8F86B8" letter-spacing="2">CONTRIBUTIONS, LAST 12 MONTHS</text>
-<text class="r" x="660" y="372" font-size="24" fill="#fff">679</text><text class="r5" x="660" y="390" font-size="11" fill="#8F86B8" letter-spacing="2">COMMITS</text><text class="r" x="766" y="372" font-size="24" fill="#fff">0</text><text class="r5" x="766" y="390" font-size="11" fill="#8F86B8" letter-spacing="2">PRS</text><text class="r" x="872" y="372" font-size="24" fill="#fff">44</text><text class="r5" x="872" y="390" font-size="11" fill="#8F86B8" letter-spacing="2">ACTIVE DAYS</text>
+<text class="r" x="660" y="372" font-size="24" fill="#fff">697</text><text class="r5" x="660" y="390" font-size="11" fill="#8F86B8" letter-spacing="2">COMMITS</text><text class="r" x="766" y="372" font-size="24" fill="#fff">7</text><text class="r5" x="766" y="390" font-size="11" fill="#8F86B8" letter-spacing="2">PRS</text><text class="r" x="872" y="372" font-size="24" fill="#fff">44</text><text class="r5" x="872" y="390" font-size="11" fill="#8F86B8" letter-spacing="2">ACTIVE DAYS</text>
 
 </svg>
