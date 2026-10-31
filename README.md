@@ -2,7 +2,7 @@
 
 <a href="https://discord.gg/agn"><img src="assets/license.svg" width="100%" alt="Developer license: IamZach, full stack, founder of Astra Gaming Network" /></a>
 
-<a href="https://github.com/1amZach/devkit"><img src="assets/mission.svg" width="100%" alt="Active mission: devkit, in-game tools for building FiveM servers" /></a>
+<a href="https://github.com/1amZach/fivecord"><img src="assets/mission.svg" width="100%" alt="Active mission: fivecord, run your FiveM server from Discord" /></a>
 
 <img src="assets/inventory.svg" width="100%" alt="Toolbox: Lua, TypeScript, JavaScript, Svelte, HTML, CSS, Node, Vite, MariaDB, Git, REST, WebSockets" />
 

@@ -189,7 +189,7 @@ def loading():
         for _ in range(34)
     )
 
-    tips = ['mounting ox_lib', 'starting devkit', 'syncing Astra Gaming Network', 'spawning IamZach']
+    tips = ['mounting ox_lib', 'starting fivecord', 'syncing Astra Gaming Network', 'spawning IamZach']
     tip_svg = ''.join(
         f'<text class="m tip" x="70" y="532" font-size="22" fill="{SILVER}" style="animation-delay:{i * 2}s">'
         f'<tspan fill="{TEAL}">&gt;</tspan> {esc(t)}</text>' for i, t in enumerate(tips)
@@ -382,7 +382,7 @@ def license_and_server(data):
 
 
 def mission():
-    objectives = ['Grab coords from anywhere', 'Inspect any entity', 'Place and copy props', 'Draw ox_lib zones']
+    objectives = ['Look up any player, online or not', 'Catch ban evaders on sight', 'Answer reports from Discord', 'Restart the server from your phone']
     obj_svg = []
     for i, text in enumerate(objectives):
         y = 178 + i * 32
@@ -426,11 +426,11 @@ def mission():
 {panel(10, 10, 980, 280)}
 <circle class="blink" cx="44" cy="44" r="5" fill="{TEAL}"/>
 <text class="m" x="58" y="49" font-size="13" fill="{TEAL}" letter-spacing="3">ACTIVE MISSION</text>
-<text class="r" x="40" y="104" font-size="50" fill="#fff">devkit</text>
-<rect x="196" y="76" width="132" height="30" rx="4" fill="{VIOLET}" fill-opacity=".2" stroke="{VIOLET}"/>
-<circle class="blink" cx="214" cy="91" r="4.5" fill="{TEAL}"/>
-<text class="r" x="226" y="97" font-size="15" fill="{SILVER}" letter-spacing="2.5">IN TESTING</text>
-<text class="r5" x="40" y="138" font-size="18" fill="{MUTED}">In-game tools for building FiveM servers. Point, click, paste.</text>
+<text class="r" x="40" y="104" font-size="50" fill="#fff">fivecord</text>
+<rect x="250" y="76" width="132" height="30" rx="4" fill="{VIOLET}" fill-opacity=".2" stroke="{VIOLET}"/>
+<circle class="blink" cx="268" cy="91" r="4.5" fill="{TEAL}"/>
+<text class="r" x="280" y="97" font-size="15" fill="{SILVER}" letter-spacing="2.5">IN TESTING</text>
+<text class="r5" x="40" y="138" font-size="18" fill="{MUTED}">Run your FiveM server from Discord. 47 slash commands.</text>
 {''.join(obj_svg)}
 <text class="m" x="440" y="274" font-size="12" fill="{MUTED}" letter-spacing="1.5">REWARD: open source // MIT</text>
 <circle cx="820" cy="150" r="124" fill="none" stroke="{VIOLET}" stroke-opacity=".6" stroke-width="2"/>
